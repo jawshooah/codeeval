@@ -1,0 +1,10 @@
+{
+  "linters": {
+    "scalac": {
+      "@disable": false
+    },
+    "scalastyle": {
+      "@disable": false
+    }
+  }
+}
