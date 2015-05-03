@@ -1,4 +1,6 @@
 /**
+ * CHALLENGE DESCRIPTION:
+ *
  * Print out the grade school multiplication table upto 12*12.
  *
  * INPUT SAMPLE:
