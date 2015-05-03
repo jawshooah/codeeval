@@ -21,11 +21,14 @@ object Main extends App {
     Console.println(outputLine)
   }
 
+  final val Fizz = "F"
+  final val Buzz = "B"
+
   def fizzBuzz(a: Int, b: Int, n: Int): String = {
     (for (i <- 1 to n) yield {
       var out = ""
-      if (divisibleBy(i, a)) out += "F"
-      if (divisibleBy(i, b)) out += "B"
+      if (divisibleBy(i, a)) out += Fizz
+      if (divisibleBy(i, b)) out += Buzz
       if (out.nonEmpty) out else i.toString
     }).mkString(" ")
   }
