@@ -31,6 +31,6 @@ object Main extends App {
   for (line <- lines) {
     val words = line.trim.split("\\s+")
     val reversed = words.reverse.mkString(" ")
-    Console.println(reversed)
+    println(reversed)
   }
 }

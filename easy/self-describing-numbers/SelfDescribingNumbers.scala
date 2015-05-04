@@ -37,7 +37,7 @@ object Main extends App {
 
   for (num <- lines) {
     val out = if (isSelfDescribing(num)) Yes else No
-    Console.println(out)
+    println(out)
   }
 
   def isSelfDescribing(num: String): Boolean = {

@@ -17,7 +17,7 @@ object Main extends App {
   final val Limit = 1000
 
   val largest = largestPrimePalindrome(Limit)
-  Console.println(largest)
+  println(largest)
 
   def largestPrimePalindrome(limit: Int): Int = {
     val sieve = Array.fill(limit + 1)(true)

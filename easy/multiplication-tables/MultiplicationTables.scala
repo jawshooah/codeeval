@@ -22,7 +22,7 @@ object Main extends App {
   final val Max = 12
 
   val table = multiplicationTable(Min to Max)
-  Console.println(tableString(table))
+  println(tableString(table))
 
   def multiplicationTable(range: Range): Seq[Seq[Int]] =
     range map { i => range map { j => i * j } }

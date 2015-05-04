@@ -63,6 +63,6 @@ object Main extends App {
     }
 
     val sentence = wordArray mkString " "
-    Console.println(sentence)
+    println(sentence)
   }
 }

@@ -43,7 +43,7 @@ object Main extends App {
   val source = io.Source.fromFile(args(0))
   val lines = source.getLines.filter{ _.nonEmpty }
 
-  lines map rollerCoaster foreach Console.println
+  lines map rollerCoaster foreach println
 
   def rollerCoaster(line: String): String = {
     val buffer = new StringBuffer

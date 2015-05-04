@@ -52,7 +52,7 @@ object Main extends App {
   for (line <- lines) {
     val Array(a, b, n) = line.split(' ').map{ _.toInt }
     val outputLine = fizzBuzz(a, b, n)
-    Console.println(outputLine)
+    println(outputLine)
   }
 
   final val Fizz = "F"

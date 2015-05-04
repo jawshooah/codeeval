@@ -17,7 +17,7 @@ object Main extends App {
   final val Limit = 1000
 
   val sum = sumOfPrimes(Limit)
-  Console.println(sum)
+  println(sum)
 
   def sumOfPrimes(limit: Int): Int = {
     def isPrime(n: Int, primes: List[Int]): Boolean =
